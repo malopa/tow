@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+body{
+    font-family: bronova;
+    background: #010124;
+}
+.top{
+    padding:1rem;
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2B2B2B;
+    width: 100vw;
+}
+.name >h3 >b >a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-bar >ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu-bar >ul >li{
+    padding: 1rem 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.menu-bar >ul >li > a:hover{
+    color:orange;
+}
+.menu-bar >ul >li >a{
+    text-decoration: none;
+    color: #fff;
+}
+.action{
+    display: flex;
+    flex-wrap: wrap;
+}
+.action >ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.action >ul >li{
+    padding: 1rem 3rem;
+}
+.action >ul >li >a{
+    text-decoration: none;
+    color: #fff;
+}
+.case{
+    position: relative;
+    display: flex;
+    height: 80vh;
+    width:100vw;
+    flex-wrap: wrap;
+    background: url(img/recoveryy.png)no-repeat center/cover;
+}
+
+.about-bg{
+    height: 50vh;
+    position: relative;
+    display: flex;
+    width:100vw;
+    flex-wrap: wrap;
+    background: url(img/background1111.jpg)no-repeat center/cover;
+
+}
+
+.overlay{
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%; 
+    opacity: .5; 
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image >img{
+    width: 1500px;
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top:200px;
+    left:50px;
+}
+.content >h1{
+    font-size: 70px;
+    font-family: montserrat;
+}
+.description{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 170px;
+}
+.des1{
+    width: 400px;
+    height: 300px;
+    padding: 2rem;
+    background-color: #000080;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center ;
+}
+.des1 >p{
+    text-align: center;
+}
+.click{
+    justify-content: center;
+}
+/* button{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-family: bronova;
+    border-radius: 10px;
+    color: #fff;
+    background: red;
+} */
+.info{
+    position: absolute;
+    background-color: orangered;
+    width: 500px;
+    border-radius: 10px;
+    top: -30px;
+    right: 100px;
+    padding: 1rem;
+    color: #fff;
+}
+.contact{
+    text-align: center;
+    padding: 1rem;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.about-us{
+    width: 900px;
+    color: #fff;
+}
+
+
+
+.know-more{
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.know-more >button{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    color: #ffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.know-more >button:hover{
+    background-color: rgb(219, 106, 64);
+}
+
+.service{
+    /* margin:20px auto; */
+    padding: 1rem;
+    color: #FFF;
+    margin-top:4rem;
+
+}
+
+
+.describe{
+    margin-top:2rem;
+    color:#FFF;
+    padding: 1rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 2rem;
+    margin-top: 1rem;
+    transition: all 300ms ease-in-out;
+    background-color: orangered;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+.about-content{
+    width: 40%;
+    text-align: left;
+}
+.card-info{
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+    padding: 1rem;
+}
+
+.card-info:nth-child(2){
+    background-color: orangered;
+}
+
+.card-info:nth-child(3){
+    background-color: 777;
+}
+
+.card-info-cover{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-data{
+    position: absolute;
+    top:200px;
+}
+
+.card-data h3{
+    margin-bottom: 16px;
+}
+
+.service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    position: relative;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .4;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.img-overlay:hover{
+    opacity: .6;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.items >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.items p{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.contact-form{
+    margin: 20px  auto;
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+}
+
+.contact-form form >div{
+    margin: 20px 0;
+}
+input{
+    padding:20px;
+    border-radius: 4px;
+    outline:none;
+    width: 100%;
+    border: 1px solid #CCC;
+}
+
+.form{
+    width:100%;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+button{
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.experince{
+    padding: 1rem;
+    display: flex;
+
+}
+
+.experince > div{
+    padding: 1rem;
+    width: 48%;
+}
+
+
+.price-card{
+    width: 30%;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin: 1rem;
+    color:#777;
+    /* height: 500px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.price-card > h2{
+    font-size:20px;
+}
+.price-card > h1{
+    margin-bottom:2rem;
+    font-size: 48px;
+    color:#000;
+}
+
+.price{
+    color:orange;
+    font-size: 48px;
+    font-weight: bold;
+    margin:2rem 0px;
+}
+
+.p{
+    font-size: 20px;
+}
+
+.section-about{
+    background-color: #666;
+    width: 100%;
+    padding: 2rem;
+}
+
+.about{
+    width: 70%;
+    margin:20px auto;
+    text-align: center;
+}
+
+.about-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 3rem 0;
+}
+
+.about-data > div{
+    width:45%;
+    color: #FFF;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background:#333;;
+    height: 30vh;
+    padding:2rem;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+}
+
+.price-card-cover{
+    display: flex;
+    width: 80vw;
+
+}
+
+
+.order{
+    font-size:48px;
+}
+
+
+
+.experince-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 48px;
+    color: #FFF;
+    margin-top:2rem;
+}
+
+
+.contact-info{
+    display:flex;justify-content:center;align-items:center;font-size: 60px;color: #FFF;margin-top:2rem;
+}
+
+@media screen  and (max-width:768px){
+    
+.contact-info{
+    font-size: 24px;
+}
+
+.contact-form{
+    width: 90%;
+}
+    .experince-title{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .experince{
+        flex-direction: column;
+    }
+
+    .price-card-cover{
+        flex-direction: column;
+    }
+
+    .price-card{
+        width: 100%;
+    }
+
+
+    .experince >div{
+        width: 100%;
+    }
+    .case{
+        height: 50vh;
+    }
+
+    .content{
+        position: absolute;
+        top:60px;
+        left:50px;
+    }
+
+    .info{
+
+        position: absolute;
+        background-color: orangered;
+        width: 300px;
+        border-radius: 10px;
+        top: -30px;
+        right: 0px;
+        padding: 1rem;
+
+    }
+
+    .info > h1{
+        font-size: 24px;
+    }
+    .contact h1{
+        font-size: 16px;
+
+    }
+
+    .order{
+        font-size: 24px;
+    }
+    .action{
+        display: none;
+    }
+    .top{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .describe{
+            width: 100%;
+        }
+
+        .about-content{
+            width: 100%;
+            text-align: justify;
+        }
+
+        .service-img{
+            flex-direction: column;
+        }
+
+        .card-info-cover{
+            flex-direction: column;
+
+        }
+
+        .about-data{
+            flex-direction: column;
+        }
+        .about-data > div{
+            width: 100%;
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+
+}
