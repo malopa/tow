@@ -37,7 +37,7 @@ body{
 }
 .menu-bar >ul{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     list-style: none;
 }
 .menu-bar >ul >li{
