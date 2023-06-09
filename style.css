@@ -33,7 +33,7 @@ body{
 }
 .menu-bar{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .menu-bar >ul{
     display: flex;
